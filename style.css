@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: yellow;
+}
+
+.logo {
+    width: 100px;
+    height: 150px;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: darkorange;
+    padding: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 40px;
+}
+nav a:hover{
+    border: 2px solid red;
+    transition: 0.1s ease-in;
+}
+nav{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+
+.lego {
+    width: 1075px;
+    height: 650px;
+}
+.sale{
+    position: absolute;
+    top: 750px;
+    font-size: 20px;
+}
+.onepart{
+    width: 130px;
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+
+.onepart img{
+    padding: 5px;
+}
+.onepart p{
+    text-align: center;
+
+}
+
+main h2{
+    text-align: center;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    margin-left: 400px;
+}
+
+.towar{
+width: 400px; 
+   background-color: yellow;
+    display: inline-block;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    
+}
+.towar:hover{
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.towar p{
+    text-align: center;
+}
+.towar a{
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px;
+    color: black;
+    position: relative;
+    left: 110px;
+}
+.towarka{
+    width: 300px;
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 30px;
+
+}
+.towarka p{
+    text-align: center;
+}
+.towarka a{
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px;
+    color: black;
+    position: relative;
+    left: 80px;
+}
+.towarka:hover{
+    border: 3px solid red;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    background-image: linear-gradient(yellow,red);
+    padding: 10px;
+    border-radius: 10px;
+}
+.vidguk{
+    border: 3px solid red;
+    border-radius: 10px;
+    position: 20px;
+    margin-left: 60px;
+}
+.vidguk p{
+    border-left:10px double red;
+}
